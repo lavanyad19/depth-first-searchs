@@ -1,5 +1,5 @@
 <h1>ExpNo 2 : Implement Depth First Search Traversal of a Graph</h1> 
-<h3>Name:LAVANYA D </h3>
+<h3>Name: LAVANYA D </h3>
 <h3>Register Number: 212224060133     </h3>
 <H3>Aim:</H3>
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
@@ -75,9 +75,9 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
     # DFS using Stack (Iterative) - Input Format Based
 
     def dfs(graph, start):
-    visited = set()
-    stack = [start]
-    result = []
+        visited = set()
+        stack = [start]
+        result = []
 
     while stack:
         node = stack.pop()
@@ -96,15 +96,15 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
     # -------------------------
     # MAIN PROGRAM
     # -------------------------
-
+    
     # Read number of nodes and edges
     n, e = map(int, input().split())
-
+    
     graph = {}
-
+    
     # Build graph dictionary
     for _ in range(e):
-    u, v = input().split()
+        u, v = input().split()
 
     if u not in graph:
         graph[u] = []
@@ -158,7 +158,7 @@ F H <BR>
 
 <h3>OUTPUT: <h3>
 
-<img width="1890" height="747" alt="image" src="https://github.com/user-attachments/assets/872c1269-8097-415d-bec1-e41b93f2641b" />
+<img width="1071" height="372" alt="image" src="https://github.com/user-attachments/assets/9538972d-d095-499d-8054-9817a4e816bd" />
 
 
 
